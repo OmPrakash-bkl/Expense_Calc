@@ -1,0 +1,14 @@
+.expenses {
+    display: block;
+    background-color: #1F1F1F;
+    width: 50rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 95%;
+}
+
+@media only screen and (max-width: 875px) {
+    .expenses {
+        margin: 0rem 1rem;
+    }
+}

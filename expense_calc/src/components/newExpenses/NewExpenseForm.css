@@ -1,0 +1,30 @@
+.newExpenseForm-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.newExpenseForm-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.newExpenseForm-control input {
+    padding: 0.7rem 0.5rem;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    width: 20rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+.newExpenseForm-submit-controls {
+    text-align: right;
+}
+
+
+.form_error {
+    color: red;
+}
